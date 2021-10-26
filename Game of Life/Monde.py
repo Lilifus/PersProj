@@ -2,7 +2,7 @@ from Cell import *
 import random
 class Monde:
     
-    def __init__(self, size : int,width,height):
+    def __init__(self, size,width,height):
         self.size = size
         self.map = []
         for i in range(size):

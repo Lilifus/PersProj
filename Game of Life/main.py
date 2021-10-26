@@ -2,9 +2,9 @@ from Monde import *
 import time
 
 
-width=1200
-height=960
-cellPerRaw = 120
+width=600
+height=480
+cellPerRaw = 60
 
 World_map = Monde(cellPerRaw,width,height)
 
@@ -26,7 +26,7 @@ while continuer:
     World_map.display_map()
     # World_map.display_map_shell()
     # print('----------------------------')
-    # time.sleep(0.0005)
+    time.sleep(0.05)
 
 
 
